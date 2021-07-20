@@ -1,0 +1,13 @@
+# pyplot-fortran src
+pyplot_module.f90
+
+# fortran object & module files
+*.mod
+*.o
+
+# data files
+*.dat
+
+# binaries
+*.out
+*.exe
