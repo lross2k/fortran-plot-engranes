@@ -12,7 +12,7 @@ module ignuplot
 			character(len=128) :: outarg
 			integer :: i, n_points
 			
-			outarg = "gnuplot -persist -e ""plot '"//arg//"' with lines"%
+			outarg = "gnuplot -persist -e ""plot '"//arg//"' with lines"
 			
 			open(20,file=arg)
 	
